@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="ex4css.css" />
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="donnees">
+                <label for="nom">Nom de la personne : </label>
+                <input id="nom" required type="text" /><br />
+                <label for="nom">Prenom de la personne : </label>
+                <input id="prenom" type="text" /><br />
+                <label for="nom">Age de la personne : </label>
+                <input id="age" type="number" /><br />
+                <label for="nom">Profession de la personne : </label>
+                <input id="job" type="text" /><br />
+                <p id="message" hidden>
+                    Il faut remplir les champs ci dessus pour ajouter une
+                    nouvelle personne
+                </p>
+                <br /><br /><br />
+                <input
+                    id="ajouterPerson"
+                    type="button"
+                    value="Ajouter personne"
+                    style="display: block; margin: auto"
+                    onclick="ajouterPersonne();"
+                />
+            </div>
+            <div id="tab">
+                <table id="tabPers">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Age</th>
+                            <th>Mail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Martin</td>
+                            <td>Gabriel</td>
+                            <td>24</td>
+                            <td>Maçon</td>
+                        </tr>
+                        <tr>
+                            <td>Giraud</td>
+                            <td>Pierre</td>
+                            <td>28</td>
+                            <td>Concepteur</td>
+                        </tr>
+                        <tr>
+                            <td>Joly</td>
+                            <td>Pauline</td>
+                            <td>31</td>
+                            <td>Developpeur</td>
+                        </tr>
+                        <tr>
+                            <td>Dubois</td>
+                            <td>Sofie</td>
+                            <td>37</td>
+                            <td>Ingenieur</td>
+                        </tr>
+                        <tr>
+                            <td>Jean</td>
+                            <td>Paul</td>
+                            <td>45</td>
+                            <td>Architecte</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

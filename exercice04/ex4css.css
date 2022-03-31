@@ -1,0 +1,50 @@
+table {
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+p {
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-weight: bolder;
+  width: 80%;
+}
+#donnees {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+#tab {
+  width: 45%;
+  margin: auto;
+  display: inline-block;
+}
+#container {
+  width: 90%;
+  margin: auto;
+}
+label {
+  display: inline-block;
+  width: 50%;
+  margin-top: 10px;
+}
+input[type="button"] {
+  display: block;
+  width: 30%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  margin: 15px auto;
+}
+.failed {
+  border: dashed 2px red;
+  border-radius: 3px;
+}
+.success {
+  border: dashed 2px green;
+  border-radius: 3px;
+}
